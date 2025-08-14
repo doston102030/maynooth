@@ -1,0 +1,102 @@
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v48-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v48-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v48-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto => 500, 400,700 */
+
+/* global styles */
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font);
+  color: var(--black-101);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+}
+
+*,
+*::after *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  display: flex;
+}
+input {
+  background-color: transparent;
+  border: 0;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+main {
+  flex-grow: 1;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
