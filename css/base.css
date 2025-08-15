@@ -26,14 +26,17 @@
 
 /* global styles */
 html {
+  /* width: 100vw; */
   height: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
 }
 
 body {
   height: 100%;
   display: flex;
   flex-direction: column;
+
   font-family: var(--font);
   color: var(--black-101);
   font-weight: 400;
@@ -55,6 +58,13 @@ body {
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
+}
+hr {
+  border: 0;
+  background-color: var(--grey400);
+  width: 100%;
+  height: 2px;
+  display: block;
 }
 a {
   text-decoration: none;
